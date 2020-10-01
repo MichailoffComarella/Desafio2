@@ -17,7 +17,7 @@ public class ClasseArray {
     public static void main(String[] args) {
         
         int tamanho = 4;
-        /*System.out.println("PRIMEIRA IMPLEMENTAÇÃO: ");
+        System.out.println("PRIMEIRA IMPLEMENTAÇÃO: ");
         System.out.println("------------------------");
         
         String [] array1 = new String[tamanho];
@@ -54,34 +54,34 @@ public class ClasseArray {
         System.out.println("------------------------");
         
         String [] array2 = new String[tamanho];
-        ArraySecond teste = new ArraySecond(array2, tamanho);
+        ArraySecond teste2 = new ArraySecond(array2, tamanho);
         
-        teste.addElemento("Milena", 0);
-        teste.addElemento("Yssis", 2);
-        teste.addElemento("Dani", 1);
+        teste2.addElemento("Milena", 0);
+        teste2.addElemento("Yssis", 2);
+        teste2.addElemento("Dani", 1);
         
-        for (int i = 0; i < teste.getTamanho(); i++) {
-        System.out.println(teste.recuperarElemento(i));
+        for (int i = 0; i < teste2.getTamanho(); i++) {
+        System.out.println(teste2.recuperarElemento(i));
         }
         
         System.out.println("-------------------------");
         
-        teste.removeElemento(0);
+        teste2.removeElemento(0);
         
-        for (int i = 0; i < teste.getTamanho(); i++) {
-        System.out.println(teste.recuperarElemento(i));
+        for (int i = 0; i < teste2.getTamanho(); i++) {
+        System.out.println(teste2.recuperarElemento(i));
         }
         
         System.out.println("--------------------------");
         
-        teste.addElemento("Milena", 4);
+        teste2.addElemento("Milena", 4);
         
-        for (int i = 0; i < teste.getTamanho(); i++) {
-        System.out.println(teste.recuperarElemento(i));
+        for (int i = 0; i < teste2.getTamanho(); i++) {
+        System.out.println(teste2.recuperarElemento(i));
         }
         
         System.out.println("------------------------");
-        System.out.println("");*/
+        System.out.println("");
         System.out.println("TERCEIRA IMPLEMENTAÇÃO: ");
         System.out.println("------------------------");
         
